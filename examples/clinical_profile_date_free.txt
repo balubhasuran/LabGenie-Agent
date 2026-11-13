@@ -1,0 +1,31 @@
+LABGENIE CLINICAL PROFILE — SYNTHETIC ILLUSTRATION
+Research use only. This is not a patient record or an output of the CLI.
+
+Profile ID: EXAMPLE-ONLY
+Condition: Type 2 diabetes mellitus (t2dm)
+Timepoint: T2
+Days after index: 60
+Age at snapshot: 83
+Sex: female
+Race: White
+
+CURRENT LABORATORY RESULTS (selected)
+Hemoglobin A1c | 12.1 %
+Glucose | 354 mg/dL
+LDL cholesterol | 113 mg/dL
+
+LABORATORY TRENDS (selected)
+Hemoglobin A1c | 12.1 %
+Glucose | 354 mg/dL
+Glucose | 386 mg/dL
+LDL cholesterol | 113 mg/dL
+
+MEDICATION RECORDS
+None available in this illustration.
+
+DIAGNOSES
+E11.9 | Type 2 diabetes mellitus without complications
+E78.5 | Hyperlipidemia, unspecified
+
+Values are illustrative and mirror selected values discussed in the attached
+Round 5 content example. Other underlying EHR details have been omitted.

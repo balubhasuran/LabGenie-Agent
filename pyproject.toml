@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "labgenie-profile-generator"
+version = "0.1.0"
+description = "Reproducible disease and timepoint clinical profiles from PCORnet-style outpatient CSV exports"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["duckdb>=1.1,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+labgenie-profiles = "labgenie_profiles.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
